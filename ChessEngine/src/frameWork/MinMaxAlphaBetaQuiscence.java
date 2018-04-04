@@ -1,6 +1,5 @@
 package frameWork;
 
-import java.util.HashMap;
 import java.util.LinkedList;
 
 import evaluation.PositionEvaluator;
