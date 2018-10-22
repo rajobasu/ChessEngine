@@ -24,17 +24,6 @@ public class MinMaxAlphaBetaQuiscence {
 		this.quisce = quisce;
 
 	}
-
-	private int minNode() {
-
-		return 0;
-	}
-
-	private int maxNode() {
-
-		return 0;
-	}
-
 	// changed without much knowledge, revert to previous versions if necessary.
 	private int negaMax(int alpha, int beta, int d, PieceColor color, int sign) {
 		PositionEvaluator.positionsEvaluated++;
